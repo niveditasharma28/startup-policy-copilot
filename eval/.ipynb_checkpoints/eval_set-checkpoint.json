@@ -1,44 +1,42 @@
 [
   {
     "question": "What is the definition of a startup under DPIIT?",
-    "expected": ["dpiit", "startup", "gsr"]
+    "expected": "entity recognized by DPIIT"
   },
   {
     "question": "What are tax benefits under section 56?",
-    "expected": ["angel tax", "section 56"]
+    "expected": "angel tax exemption"
   },
   {
     "question": "What is the maximum age of a startup for recognition?",
-    "expected": ["10 years", "incorporation"]
+    "expected": "10 years from incorporation"
   },
   {
     "question": "What is the turnover limit for DPIIT recognition?",
-    "expected": ["100 crore", "turnover", "less than"]
+    "expected": "100 crore"
   },
   {
     "question": "What is the seed fund scheme?",
-    "expected": ["seed fund", "startup"]
+    "expected": "financial assistance to startups"
   },
   {
     "question": "What is the SIDBI Fund of Funds?",
-    "expected": ["sidbi", "fund of funds"]
+    "expected": "funding support through AIFs"
   },
   {
     "question": "What is Form-56 for angel tax?",
-    "expected": ["form-56", "angel tax"]
+    "expected": "declaration under section 56"
   },
   {
     "question": "Is there any fee for DPIIT recognition?",
-    "expected": ["no fee", "dpiit"]
+    "expected": "no fee"
   },
   {
     "question": "What is the National Startup Ranking?",
-    "expected": ["startup ranking", "state ranking", "ranking framework"]
+    "expected": "ranking Indian states"
   },
   {
     "question": "Who issues the certificate of recognition?",
-    "expected": ["certificate", "board", "dpiit"]
+    "expected": "Department for Promotion of Industry and Internal Trade"
   }
 ]
-
-

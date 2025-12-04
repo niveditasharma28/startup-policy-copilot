@@ -1,0 +1,60 @@
+
+What I Learnt Building My First AI Agent
+Building my first AI agent wasn’t just about learning code — it taught me how real-world AI products come together. In this post, I’m sharing what I built, how I built it, and the lessons that surprised me the most.
+
+During my internship, I was tasked with developing an intelligent assistant that could answer questions about startup policies using government documents. The goal: Build a production-ready, retrieval-augmented generation (RAG) system from scratch.
+
+I created a RAG-based question-answering system that:
+
+Extracts content from policy PDFs
+
+Indexes the data using ChromaDB
+
+Embeds documents with sentence-transformers
+
+Exposes a FastAPI endpoint
+
+Runs in a Dockerized environment
+
+The user can ask questions through a Swagger UI, and the system returns context-aware answers from policy files.
+
+   My Tech Stack included:
+
+LangChain for chaining components
+
+ChromaDB for vector indexing
+
+SentenceTransformers for embeddings
+
+FastAPI for serving the API
+
+Docker for containerization
+
+Jupyter Notebooks for development
+
+GitHub for version control
+
+Key Lessons I Learnt:
+
+Understanding RAG: I learned how retrieval-augmented generation improves factual accuracy in LLM outputs.
+
+Vector DBs matter: Picking the right k for nearest neighbors and chunk sizes directly impacts results.
+
+LangChain agents are powerful: But you need to structure tools and memory clearly for reliability.
+
+Docker helps deployment: Especially for packaging Python + PyTorch dependencies.
+
+Notebooks aren’t enough: Turning notebooks into FastAPI code made me appreciate proper APIs and modular structure.
+
+Challenges I Faced:
+Installing torch inside Docker took hours (literally )
+
+
+
+ Demo / GitHub Link
+ GitHub Repo 🎥 Watch My 90-Second Demo (Add Loom or YouTube link)
+
+This project showed me what it takes to build not just a smart chatbot, but a full-stack intelligent system. It combined research, coding, debugging, deployment — and a lot of Googling 😄. I’m now confident in using RAG, LangChain, Docker, and vector DBs to solve real-world problems.
+
+ Would love your feedback — and if you're working on anything similar, let’s connect!
+

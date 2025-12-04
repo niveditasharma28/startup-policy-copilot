@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.txt~
+*.md~
+*.pdf
+*.zip
+*.tar
+*.pyc
+*.log
+venv/
