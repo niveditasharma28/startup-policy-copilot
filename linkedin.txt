@@ -47,14 +47,10 @@ Docker helps deployment: Especially for packaging Python + PyTorch dependencies.
 Notebooks aren’t enough: Turning notebooks into FastAPI code made me appreciate proper APIs and modular structure.
 
 Challenges I Faced:
-Installing torch inside Docker took hours (literally )
+Installing torch inside Docker took hours 
 
 
-
- Demo / GitHub Link
- GitHub Repo 🎥 Watch My 90-Second Demo (Add Loom or YouTube link)
-
-This project showed me what it takes to build not just a smart chatbot, but a full-stack intelligent system. It combined research, coding, debugging, deployment — and a lot of Googling 😄. I’m now confident in using RAG, LangChain, Docker, and vector DBs to solve real-world problems.
+This project showed me what it takes to build not just a smart chatbot, but a full-stack intelligent system. It combined research, coding, debugging, deployment — and a lot of Googling . I’m now confident in using RAG, LangChain, Docker, and vector DBs to solve real-world problems.
 
  Would love your feedback — and if you're working on anything similar, let’s connect!
 
