@@ -20,27 +20,25 @@ A Retrieval-Augmented Generation (RAG) powered FastAPI tool is to help users que
 
  Demo
 
- [Watch Demo Video](https://your-demo-link.com)  
+ [Watch Demo Video](https://www.loom.com/share/c43b02a7f4f8441b917138c0a9ba11fa)  
 
 ---
 
  Features
 
--  **PDF Parsing:** Automatically extracts text from Indian government policy PDFs.
--  **Semantic Search:** Uses embeddings to retrieve relevant content.
--  **FastAPI Backend:** Simple API for querying the documents.
--  **LangChain Integration:** Efficient document retrieval pipeline.
--  **Evaluation Notebook:** Accuracy metrics included.
--  **Dockerized:** Easy to build and run anywhere.
+-  PDF Parsing: Automatically extracts text from Indian government policy PDFs.
+-  Semantic Search:Uses embeddings to retrieve relevant content.
+-  FastAPI Backend: Simple API for querying the documents.
+-  LangChain Integration: Efficient document retrieval pipeline.
+-  Evaluation Notebook: Accuracy metrics included.
+-  Dockerized: Easy to build and run anywhere.
 
 ---
 
 Architecture
 
-```text
-+---------+       +-------------------+       +-----------------+       +-------------+
-|  User   | <---> | FastAPI Endpoint  | <---> | LangChain Agent | <---> | ChromaDB    |
-+---------+       +-------------------+       +-----------------+       +-------------+
+  User   <---> FastAPI Endpoint   <---> LangChain Agent <--->  ChromaDB    
+          
                                                 ⬇
                                            HuggingFace Embeddings
 
@@ -99,7 +97,7 @@ Evaluation
 The system was evaluated on 20 user queries from actual policy questions.
 
 Metric	Value
-Accuracy	85%
+Accuracy	90%
 Citation Correctness	100%
 Avg. Latency	< 1 sec/query
 Fail Cases	3/20
